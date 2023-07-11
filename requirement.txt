@@ -1,0 +1,12 @@
+This file contains information on how to run the code in the Jupyter Notebook.
+
+The code provided can be used to run all four set of experiments described in the paper.
+
+The name of the input file needs to be provided as a value for the variable named: file_to_import. Since we are conducting experiments on two Australian Indicatores: monthly unemplyment rate and monthly number of short term visitors visiting Australia then the value of this variable can either be visitors or unemployment. Both input data files are included in this repo.
+
+The following two varibales need to be assigned values of 0 or 1. 
+pre_covid=0|1 -> assigning 1 to this variable will exclude three years of data that covers COVID19 period
+log_transformation=0|1 -> assigning 1 to this variable will perfrom log transformation on the target variable, this is used solely on experiments 3 and 4 that related to the number of visitors forecasting.
+
+----------------
+All the cells in the provided notebook can run without user intervention. The resuts of each experiment will be automatically saved in an excel file with a correspondent name.
